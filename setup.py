@@ -250,6 +250,7 @@ for e in [
     ("creds_opt_mit", "krb5_get_init_creds_opt_set_out_ccache"),
     ("creds_opt_set_in_ccache", "krb5_get_init_creds_opt_set_in_ccache"),
     ("creds_opt_set_pac_request", "krb5_get_init_creds_opt_set_pac_request"),
+    "creds_serialize",
     "exceptions",
     "keyblock",
     "kt",
