@@ -42,6 +42,7 @@ from krb5._creds_opt import (
     get_init_creds_opt_set_salt,
     get_init_creds_opt_set_tkt_life,
 )
+from krb5._creds_serialize import marshal_credentials, unmarshal_credentials
 from krb5._exceptions import Krb5Error
 from krb5._keyblock import KeyBlock, init_keyblock
 from krb5._kt import (
