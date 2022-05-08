@@ -62,7 +62,8 @@ cdef extern from "python_krb5.h":
     ctypedef _krb5_keyblock krb5_keyblock
 
     cdef struct _krb5_data:
-        pass
+        char *data
+        int length
     ctypedef _krb5_data krb5_data
 
     cdef struct _krb5_kt:
